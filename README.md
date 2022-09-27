@@ -1,16 +1,26 @@
-# mongo_app
+# Flutter ile Mongo DataBase
 
-A new Flutter project.
+Mongo DataBase ile bağlantı, veri ekleme, veri güncelleme, veri silme, veri sorgulama işlemlerinin yer aldığı bir mobil uygulama projesi.
 
-## Getting Started
+## Not
 
-This project is a starting point for a Flutter application.
+Projede DataBase işlemlerinin başarlı bir şekilde çalışabilmesi için öncelikle https://www.mongodb.com/cloud adresinden MongoDB'e giriş yaparak kendi veri tabanınızı ve collection'nınızı oluşturun, bu işlemleri gerçekleştirdikten sonra projede yer alan lib > dbHelper > constant.dart dosyası içerisindeki sabitleri kendi veri tabanı bilgileriniz ile güncelleyin. Projede yer alan mevcut sabitler kendi MongoDB hesabıma ait veritabanı bilgileri olduğu için bu bilgileri proje kodlarını yayınladıktan sonra güncelleyeceğim.
 
-A few resources to get you started if this is your first Flutter project:
+## State Management
+- Provider
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## pubspec.yaml Packets
+- mongo_dart: ^0.7.4+1
+- provider: ^6.0.3
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Flutter sdk Version
+- 16
+
+## Flutter Version
+- 3.0.4
+
+
+
+
+https://user-images.githubusercontent.com/56897548/192487884-f766d02e-3ada-4931-a69c-9fcc2bc69c4f.mp4
+
